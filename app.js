@@ -19,7 +19,6 @@ var newComment = function(t) {
   }
   else {
     audioOK.play();
-//    audioOK.currentTime = ".5"; <----This is where we need to shorten the audio! ------->
   }
   var a = new Date;
   return '<div>' +
